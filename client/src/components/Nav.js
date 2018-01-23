@@ -6,7 +6,8 @@ export class Nav extends Component {
     return (
         <nav className='Nav'>
           <div className='nav-content'>
-            <h1>Copper King Manor</h1>
+            <h1 onClick={() => alert('hello')}>CKM</h1>
+            <div className='title-bar'></div>
           </div>
         </nav>
     );
