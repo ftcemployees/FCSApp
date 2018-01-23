@@ -1,12 +1,14 @@
 Nav {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   height: 5vh;
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: #000210;
 }
-nav-content {
+.nav-content {
   display: flex;
+  color: #fff;
 }

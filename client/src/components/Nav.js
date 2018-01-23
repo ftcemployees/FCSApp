@@ -6,7 +6,7 @@ export class Nav extends Component {
     return (
         <nav className='Nav'>
           <div className='nav-content'>
-            Hello World!
+            <h1>Copper King Manor</h1>
           </div>
         </nav>
     );
