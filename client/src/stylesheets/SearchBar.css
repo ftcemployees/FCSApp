@@ -1,0 +1,41 @@
+.BtnWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.BtnWrapper button {
+  margin-top: 10px;
+  width: 97px;
+  padding: 0.3%;
+  margin-left: 70%;
+}
+.SearchWrapper {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  margin-top: 30vh;
+}
+.SearchWrapper input {
+  display: flex;
+  width: 960px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid #6cc5b1;
+  font-size: 24pt;
+  color: #fff;
+}
+.SearchWrapper input:focus {
+  outline: none;
+}
+.SearchWrapper input::-webkit-input-placeholder {
+  color: #0e846a;
+}
+.SearchWrapper input:-moz-placeholder {
+  color: #0e846a;
+}
+.SearchWrapper input::-moz-placeholder {
+  color: #0e846a;
+}
+.SearchWrapper input:-ms-input-placeholder {
+  color: #0e846a;
+}

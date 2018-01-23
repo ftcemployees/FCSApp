@@ -1,0 +1,37 @@
+@import 'palette.styl'
+
+.BtnWrapper
+  display flex
+  flex-direction column
+  button
+    margin-top 10px
+    width 97px
+    padding .3%
+    margin-left 70%
+
+.SearchWrapper
+  display flex
+  flex-direction row
+  color white
+  justify-content center
+  margin-top 30vh
+  input
+    display flex
+    width 960px
+    background-color inherit
+    border none
+    border-bottom 2px solid $color-primary-1
+    font-size 24pt
+    color white
+    &:focus
+      outline none
+    &::-webkit-input-placeholder
+      color $color-primary-3
+    &:-moz-placeholder
+      color $color-primary-3
+    &::-moz-placeholder
+      color $color-primary-3
+    &:-ms-input-placeholder
+      color $color-primary-3
+
+
