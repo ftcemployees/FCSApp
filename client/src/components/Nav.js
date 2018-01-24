@@ -1,14 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../stylesheets/Nav.css';
 
-export class Nav extends Component {
-  render() {
+export const Nav = () => {
     return (
         <nav className='Nav'>
           <div className='nav-content'>
-            Hello World!
+            <h1 onClick={() => alert('hello')}>CKM</h1>
+            <div className='title-bar'></div>
           </div>
         </nav>
     );
-  }
-}
+};

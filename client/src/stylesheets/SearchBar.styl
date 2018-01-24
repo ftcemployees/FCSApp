@@ -1,0 +1,37 @@
+@import 'palette.styl'
+
+.SearchBar
+  width 960px
+  margin auto
+
+
+.btn-state-initial
+  /* spacing */
+  width 97px
+  margin-top 10px
+
+.SearchWrapper
+  flex-direction row
+  color white
+  justify-content center
+  margin: auto
+  margin-top 30vh
+  input
+    width 960px
+    background-color inherit
+    border none
+    border-bottom 2px solid $color-primary-1
+    font-size 24pt
+    color white
+    &:focus
+      outline none
+    &::-webkit-input-placeholder
+      color $color-primary-3
+    &:-moz-placeholder
+      color $color-primary-3
+    &::-moz-placeholder
+      color $color-primary-3
+    &:-ms-input-placeholder
+      color $color-primary-3
+
+
