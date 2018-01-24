@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
+import React from 'react';
 import '../stylesheets/Nav.css';
 
-export class Nav extends Component {
-  render() {
+export const Nav = () => {
     return (
         <nav className='Nav'>
           <div className='nav-content'>
@@ -11,5 +10,4 @@ export class Nav extends Component {
           </div>
         </nav>
     );
-  }
-}
+};

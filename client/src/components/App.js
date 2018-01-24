@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <main className="App">
                 <Nav/>
-                <SearchBar/>
+                <SearchBar />
             </main>
         );
     }
