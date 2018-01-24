@@ -8,7 +8,7 @@ export class SearchBar extends Component {
             <div className='SearchWrapper animated fadeIn'>
                 <input type='text' placeholder='What would you like to find?'/>
             </div>
-                <button>Search</button>
+                <button>search</button>
             </div>
         )
     }
