@@ -1,0 +1,30 @@
+.search-main {
+  flex-direction: row;
+  color: #fff;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30vh;
+}
+.search-main input {
+  width: 960px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid #6cc5b1;
+  font-size: 24pt;
+  color: #fff;
+}
+.search-main input:focus {
+  outline: none;
+}
+.search-main input::-webkit-input-placeholder {
+  color: #0e846a;
+}
+.search-main input:-moz-placeholder {
+  color: #0e846a;
+}
+.search-main input::-moz-placeholder {
+  color: #0e846a;
+}
+.search-main input:-ms-input-placeholder {
+  color: #0e846a;
+}

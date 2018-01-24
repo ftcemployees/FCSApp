@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import '../stylesheets/App.css';
-import {Nav} from "./Nav";
-import {SearchBar} from "./SearchBar";
+import './App.css';
+import {Nav} from "../Nav/Nav";
+import {SearchBox} from "../Search/SearchBar/SearchBar";
 
 class App extends Component {
 
@@ -9,7 +9,7 @@ class App extends Component {
         return (
             <main className="App">
                 <Nav/>
-                <SearchBar />
+                <SearchBox />
             </main>
         );
     }
