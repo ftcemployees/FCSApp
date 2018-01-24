@@ -1,44 +1,22 @@
 @import 'palette.styl'
 
-.BtnWrapper
-  display flex
-  flex-direction column
-  button
-    /* spacing */
-    margin-top 10px
-    width 97px
-    padding .3%
-    margin-left 70%
-    z-index 50px
-    /* border */
-    border none
-    border-radius 5px
-    /* color */
-    box-shadow 0 10px 10px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-    background-color $color-secondary-1-3
-    color white
-    /* font */
-    font-size 1.4em
-    font-family $sans-font
-    font-weight lighter
-    /* effects */
-    &:focus
-      outline none
-    &:hover
-      background-color $color-secondary-1-0
-    &:active
-      background-color $color-secondary-1-0
-      box-shadow 0 5px 5px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
-      transform translateY(1px)
+.SearchBar
+  width 960px
+  margin auto
+
+
+.btn-state-initial
+  /* spacing */
+  width 97px
+  margin-top 10px
 
 .SearchWrapper
-  display flex
   flex-direction row
   color white
   justify-content center
+  margin: auto
   margin-top 30vh
   input
-    display flex
     width 960px
     background-color inherit
     border none

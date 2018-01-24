@@ -1,47 +1,20 @@
-.BtnWrapper {
-  display: flex;
-  flex-direction: column;
+.SearchBar {
+  width: 960px;
+  margin: auto;
 }
-.BtnWrapper button {
+.btn-state-initial {
 /* spacing */
-  margin-top: 10px;
   width: 97px;
-  padding: 0.3%;
-  margin-left: 70%;
-  z-index: 50px;
-/* border */
-  border: none;
-  border-radius: 5px;
-/* color */
-  box-shadow: 0 10px 10px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
-  background-color: #cd8816;
-  color: #fff;
-/* font */
-  font-size: 1.4em;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-/* effects */
-}
-.BtnWrapper button:focus {
-  outline: none;
-}
-.BtnWrapper button:hover {
-  background-color: #eba83a;
-}
-.BtnWrapper button:active {
-  background-color: #eba83a;
-  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 2px 2px rgba(0,0,0,0.22);
-  transform: translateY(1px);
+  margin-top: 10px;
 }
 .SearchWrapper {
-  display: flex;
   flex-direction: row;
   color: #fff;
   justify-content: center;
+  margin: auto;
   margin-top: 30vh;
 }
 .SearchWrapper input {
-  display: flex;
   width: 960px;
   background-color: inherit;
   border: none;
