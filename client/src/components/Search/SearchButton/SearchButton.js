@@ -3,21 +3,20 @@ import './SearchButton.css';
 
 /**
  * Search Button Component. Used as a child component.
- * @param wrapClasses - to set the css class for the wrapper.
- *        Available classes:
- *          flex-grid
- *
- * @param btnClasses - to set the css class for the button.
- *                     Defaults to btn-main-screen
- * @returns {*}
+
  * @constructor
+ * @param props
  */
-export const SearchButton = ({ wrapClasses = 'flex-grid animated fadeIn',
-                               btnClasses = 'btn-main-screen'}) => {
+export const SearchButton = (props) => {
   return (
-      <div className={wrapClasses}>
+      <div className={props.wrapClasses}>
         <div className='col-grow-6'>{/*For Spacing */}</div>
-        <button className={btnClasses}>search</button>
+        <button className={props.btnClasses}>search</button>
       </div>
   );
+};
+
+SearchButton.defaultProps = {
+  wrapClasses: 'flex-grid animated fadeIn',
+  btnClasses :'btn-main-screen'
 };

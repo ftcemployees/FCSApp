@@ -3,20 +3,21 @@ import './SearchInputBox.css';
 
 /**
  * Search Input Box Component.
- * @param wrapClasses - to set the css class of the input box wrapper
  *        Available classes:
  *          search-main-wrapper
- * @param inputClasses - to set the css class of the input box
- *       Available classes:
- *          col
  * @returns {*}
  * @constructor
+ * @param props
  */
-export const SearchInputBox = ({wrapClasses = 'search-main animated fadeIn',
-                                 inputClasses = 'col'}) => {
+export const SearchInputBox = (props) => {
   return (
-      <div className={wrapClasses}>
-        <input className={inputClasses} type='text' placeholder='What would you like to find?'/>
+      <div className={props.wrapClasses}>
+        <input className={props.inputClasses} type='text' placeholder='What would you like to find?'/>
       </div>
   )
+};
+
+SearchInputBox.defaultProps = {
+  wrapClasses: 'search-main animated fadeIn',
+  inputClasses: 'col',
 };
