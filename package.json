@@ -1,16 +1,23 @@
 {
   "name": "fcsapp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
   "dependencies": {
-    "body-parser": "~1.18.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.9",
-    "express": "~4.15.5",
-    "morgan": "~1.9.0",
-    "serve-favicon": "~2.4.5"
+    "antd": "^3.2.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts-with-stylus start ./src/index.styl",
+    "build": "react-scripts-with-stylus build ./src/index.styl",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "create-react-app-stylus": "^1.1.1"
+  },
+  "theme": {
+    "primary-color": "#26977e"
   }
 }
