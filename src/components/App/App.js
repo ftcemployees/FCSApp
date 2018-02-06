@@ -1,14 +1,13 @@
 import React from 'react';
 // import {} from 'antd';
-import {SearchBar} from "../SearchBar/SearchBar";
+import {TopNav} from "../TopNav/TopNav";
 
 export const App = () => {
 
 
   return (
-      <div id={'wrapper'}>
-        <div>Hello</div>
-        <SearchBar/>
-      </div>
+      <main id={'wrapper'}>
+        <TopNav/>
+      </main>
   );
 };

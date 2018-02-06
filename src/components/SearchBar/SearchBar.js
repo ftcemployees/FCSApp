@@ -1,5 +1,5 @@
 import React from 'react';
-import {Input} from 'antd';
+import {Row, Col, Input} from 'antd';
 
 const Search = Input.Search;
 
@@ -14,7 +14,13 @@ export const SearchBar = () => {
   ];
 
   return (
-      <Search placeholder={SearchMessages[Math.floor(Math.random() * SearchMessages.length)]} enterButton="Search"
+      <div className={'search-wrapper'}>
+        {/*<Row>*/}
+          {/*<Col span={16} offset={4}>*/}
+            <Search placeholder={SearchMessages[Math.floor(Math.random() * SearchMessages.length)]} enterButton="Search"
                   size="large"/>
+          {/*</Col>*/}
+        {/*</Row>*/}
+      </div>
   )
 };
